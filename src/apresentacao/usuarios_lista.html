@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>		
+	<h1>Lista de usuarios</h1>
+	{{blah}}
+  <table>
+    <thead>
+      <tr>
+        <th>Número</th>
+        <th>Peso</th>
+        <th>Altura</th>
+        <th>IMC</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#usuarios}}
+      <tr>
+        <td>{{numero}}</td>
+        <td>{{peso}}</td>
+        <td>{{altura}}</td>
+        <td>{{imc}}</td>
+        <td>
+        </td>
+      </tr>
+      {{/usuarios}}
+    </tbody>
+  </table>
+  	<a href="/novodeleta"> deletar imx</a>
+
+</body>
+</html>
